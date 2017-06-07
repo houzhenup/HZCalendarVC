@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'HZCalendarVC'
-s.version      = '0.0.1'
+s.version      = '0.0.3'
 s.summary      = '日历'
 s.homepage     = 'https://github.com/houzhenup/HZCalendarVC'
 s.license      = 'MIT'

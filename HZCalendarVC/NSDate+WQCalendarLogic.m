@@ -43,8 +43,8 @@
 - (NSDate *)firstDayOfCurrentMonth
 {
     NSDate *startDate = nil;
-    BOOL ok = [[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitMonth startDate:&startDate interval:NULL forDate:self];
-    NSAssert1(ok, @"Failed to calculate the first day of the month based on %@", self);
+   ;
+    NSAssert1([[NSCalendar currentCalendar] rangeOfUnit:NSCalendarUnitMonth startDate:&startDate interval:NULL forDate:self], @"Failed to calculate the first day of the month based on %@", self);
     return startDate;
 }
 
