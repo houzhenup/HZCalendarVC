@@ -7,6 +7,14 @@
 //
 
 #import "HZCalenderGobackView.h"
+//设置主题颜色1
+#define COLOR_THEME1 [UIColor redColor];
+
+//设置主题颜色
+#define COLOR_THEME ([UIColor colorWithRed:25/256.0  green:168/256.0 blue:0/256.0 alpha:1])
+
+//飞猪黄
+//#define COLOR_THEME ([UIColor colorWithRed:255/256.0  green:168/256.0 blue:0/256.0 alpha:1])
 
 
 @implementation HZCalenderGobackView
